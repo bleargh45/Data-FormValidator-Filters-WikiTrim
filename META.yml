@@ -1,0 +1,19 @@
+---
+name: Data-FormValidator-Filters-WikiTrim
+version: 0.01
+author:
+  - Graham TerMarsch (cpan@howlingfrog.com)
+abstract: Trim filter for wikified fields
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Data::FormValidator: 4
+provides:
+  Data::FormValidator::Filters::WikiTrim:
+    file: lib/Data/FormValidator/Filters/WikiTrim.pm
+    version: 0.01
+generated_by: Module::Build version 0.2805
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
