@@ -1,5 +1,5 @@
-.svn/
-\..*\.swp
-blib/
 Build
 _build/
+.git/
+\..*\.swp
+blib/
