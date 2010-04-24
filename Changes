@@ -1,4 +1,7 @@
 Revision history for Perl extension Data::FormValidator::Filters::WikiTrim:
 
+0.02    Fri Apr 23 21:35 PDT 2010
+    - Switch to Git
+
 0.01    Wed Feb 28  1:16pm 2007
     - initial version
