@@ -23,7 +23,7 @@ our $VERSION = '0.03';
 # Subroutine:   wiki_trim()
 ###############################################################################
 # Returns a filter which trims leading/trailing whitespace in a manner more
-# suitable for wikified entry fields; leading blank -lines- are trimmed, as
+# suitable for wikitext entry fields; leading blank -lines- are trimmed, as
 # well as all trailing whitespace.
 #
 # This differs from the standard "trim" filter in that we're only trimming
@@ -52,9 +52,11 @@ sub _wiki_trim {
 
 1;
 
+=for stopwords wikitext
+
 =head1 NAME
 
-Data::FormValidator::Filters::WikiTrim - Trim filter for wikified fields
+Data::FormValidator::Filters::WikiTrim - Trim filter for wikitext fields
 
 =head1 SYNOPSIS
 
@@ -74,7 +76,7 @@ Data::FormValidator::Filters::WikiTrim - Trim filter for wikified fields
 C<Data::FormValidator::Filters::WikiTrim> provides a slightly different C<trim>
 filter than the default.  Rather than trimming I<all> leading/trailing
 whitespace, we trim all leading I<blank lines> and all trailing whitespace.  In
-a wikified field, leading spaces on the first line could be important so they
+a wikitext field, leading spaces on the first line could be important so they
 need to be preserved (while leading blank lines aren't important and could be
 trimmed out).
 
@@ -85,7 +87,7 @@ trimmed out).
 =item wiki_trim()
 
 Returns a filter which trims leading/trailing whitespace in a manner more
-suitable for wikified entry fields; leading blank -lines- are trimmed, as
+suitable for wikitext entry fields; leading blank -lines- are trimmed, as
 well as all trailing whitespace.
 
 This differs from the standard "trim" filter in that we're only trimming

@@ -1,6 +1,6 @@
 # NAME
 
-Data::FormValidator::Filters::WikiTrim - Trim filter for wikified fields
+Data::FormValidator::Filters::WikiTrim - Trim filter for wikitext fields
 
 # SYNOPSIS
 
@@ -22,7 +22,7 @@ my $profile = {
 `Data::FormValidator::Filters::WikiTrim` provides a slightly different `trim`
 filter than the default.  Rather than trimming _all_ leading/trailing
 whitespace, we trim all leading _blank lines_ and all trailing whitespace.  In
-a wikified field, leading spaces on the first line could be important so they
+a wikitext field, leading spaces on the first line could be important so they
 need to be preserved (while leading blank lines aren't important and could be
 trimmed out).
 
@@ -31,7 +31,7 @@ trimmed out).
 - wiki\_trim()
 
     Returns a filter which trims leading/trailing whitespace in a manner more
-    suitable for wikified entry fields; leading blank -lines- are trimmed, as
+    suitable for wikitext entry fields; leading blank -lines- are trimmed, as
     well as all trailing whitespace.
 
     This differs from the standard "trim" filter in that we're only trimming
