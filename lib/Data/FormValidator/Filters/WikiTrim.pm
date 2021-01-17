@@ -86,11 +86,11 @@ trimmed out).
 
 Returns a filter which trims leading/trailing whitespace in a manner more
 suitable for wikified entry fields; leading blank -lines- are trimmed, as
-well as all trailing whitespace. 
+well as all trailing whitespace.
 
 This differs from the standard "trim" filter in that we're only trimming
 leading blank -lines- but leave any leading whitespace on the first line;
-those leading spaces may be important. 
+those leading spaces may be important.
 
 =back
 
