@@ -61,7 +61,7 @@ Data::FormValidator::Filters::WikiTrim - Trim filter for wikified fields
   use Data::FormValidator::Filters::WikiTrim qw(wiki_trim);
 
   # Build Data::FormValidator profile
-  $profile = {
+  my $profile = {
       'required' => [qw( subject body )],
       'field_filters' => {
           'subject' => 'trim',
