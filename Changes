@@ -1,6 +1,8 @@
 Revision history for Perl extension Data::FormValidator::Filters::WikiTrim:
 
 {{$NEXT}}
+
+0.03      2021-01-17 16:10:32-08:00 America/Vancouver
     - switch to Dist::Zilla for release management
     - POD cleanups; SYNOPSIS, spelling
     - move to GitHub
