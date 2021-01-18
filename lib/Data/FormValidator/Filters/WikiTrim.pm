@@ -109,6 +109,10 @@ license as Perl itself.
 
 =head1 SEE ALSO
 
-L<Data::FormValidator>.
+=over
+
+=item L<Data::FormValidator>
+
+=back
 
 =cut

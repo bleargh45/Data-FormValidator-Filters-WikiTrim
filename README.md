@@ -51,4 +51,4 @@ license as Perl itself.
 
 # SEE ALSO
 
-[Data::FormValidator](https://metacpan.org/pod/Data%3A%3AFormValidator).
+- [Data::FormValidator](https://metacpan.org/pod/Data%3A%3AFormValidator)
